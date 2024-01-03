@@ -30,6 +30,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'stsci-rtd-theme'
+html_theme_path = [stsci_rtd_theme.get_html_theme_path()]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
